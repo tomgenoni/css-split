@@ -1,0 +1,10 @@
+{
+  "name": "css-split",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "media-query-extractor": "^0.1.1"
+  }
+}
