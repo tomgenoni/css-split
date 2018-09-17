@@ -16,11 +16,11 @@ function injectStyle(size) {
 function windowTest() {
     const viewport = document.documentElement.clientWidth;
 
-    if (viewport >= 482 && !smallLoaded) {
+    if (viewport >= 482 && viewport < 701 && !smallLoaded) {
         smallLoaded = true;
         injectStyle("small");
     }
-    if (viewport >= 701 && !mediumLoaded) {
+    if (viewport >= 701 && viewport < 1026 && !mediumLoaded) {
         mediumLoaded = true;
         injectStyle("medium");
     }
