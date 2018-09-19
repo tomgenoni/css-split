@@ -5,6 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "fs-extra": "^7.0.0",
-    "media-query-extractor": "^0.1.1"
+    "media-query-extractor": "^0.1.1",
+    "purgecss": "^1.1.0",
+    "purify-css": "^1.2.5"
   }
 }

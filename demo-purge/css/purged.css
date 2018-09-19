@@ -1,0 +1,14 @@
+.bg-gray {
+  background-color: #d3d4d5!important;
+}
+
+.ma4 {
+  margin: 24px!important;
+}
+
+@media (min-width:482px) {
+
+  .s_ma5 {
+    margin: 32px!important;
+  }
+}
